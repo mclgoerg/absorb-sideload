@@ -10,10 +10,18 @@
       "subtitle": "Audiobookshelf client for iOS",
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
-      "version": "1.9.3",
-      "buildVersion": "248",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.9.3-248/absorb-1.9.3-248-pre.ipa",
+      "version": "1.10.0",
+      "buildVersion": "265",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.10.0-265/absorb-1.10.0-265-pre.ipa",
       "versions": [
+        {
+          "version": "1.10.0",
+          "buildVersion": "265",
+          "date": "2026-09-01T20:32:02Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.10.0-265/absorb-1.10.0-265-pre.ipa",
+          "size": 47187051,
+          "localizedDescription": "# v1.10.0-265\r\n## Beta 9\r\n\r\n### Lists\r\n- **Fix** - The Lists tab is always there now, instead of showing up only once collections had loaded. If they can't be loaded you get a message and a retry rather than the tab quietly disappearing (#362)\r\n- **Fix** - Collections and the Lists tab no longer disappear on servers with very many collections\r\n\r\n### Shortcuts\r\n- **Fix** - Setting a tab's hold to \"Ask next time\" now asks. On the Absorbing tab it played or paused instead\r\n- **Fix** - The tab hold settings say Now Playing when classic wording is on\r\n\r\n### E-ink devices\r\n- **Fix** - The Absorbing icon no longer disappears into the black selected pill\r\n\r\n### Podcasts\r\n- **Fix** - Episodes stay in place in the queue - pausing a fresh one doesn't send it to the end, and a new one doesn't shove your current listen out of the top spot\r\n\r\n### Android Auto & CarPlay\r\n- **New** - Add a toggle to start playback automatically when Android Auto or CarPlay connects\r\n- **Fix** - Ebook-only books no longer show up in the Android Auto and CarPlay browse tree\r\n\r\n### iPad\r\n- **Fix** - The share sheet actually appears now\r\n- **Fix** - The library keeps refilling instead of stalling on a spinner until you scroll\r\n\r\n### Player\r\n- **Improved** - Bigger cover on the full screen player, percent folded into the timestamps row\r\n- **Improved** - Sharper covers on the player cards\r\n\r\n### Settings\r\n- **New** - Search jumps to and highlights the matching setting\r\n- **New** - Lock screen skip icons are explained in the iOS skip settings\r\n\r\n### Ebook reader\r\n- **Fix** - Text selection no longer leaves the ebook stuck between two pages\r\n- **Fix** - Find in audiobook no longer lands in the wrong chapter\r\n- **Fix** - Finding an ebook spot before audio has started uses your saved listening position\r\n- **New** - Look up a selected word without leaving the app\r\n\r\n### Series\r\n- **Fix** - Up Next shows the real next book in the series\r\n\r\n### Widgets\r\n- **Fix** - Widgets stay wired up correctly after a reboot\r\n\r\n### iOS\r\n- **Improved** - Bluetooth and lock screen controls are much more reliable"
+        },
         {
           "version": "1.9.3",
           "buildVersion": "248",
