@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.10.0",
-      "buildVersion": "265",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.10.0-265/absorb-1.10.0-265-pre.ipa",
+      "buildVersion": "267",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.10.0-267/absorb-1.10.0-267-pre.ipa",
       "versions": [
+        {
+          "version": "1.10.0",
+          "buildVersion": "267",
+          "date": "2026-09-03T21:28:02Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.10.0-267/absorb-1.10.0-267-pre.ipa",
+          "size": 47206898,
+          "localizedDescription": "# v1.10.0-267\r\n## Beta 10\r\n\r\n### Large libraries\r\n- **Improved** - The library loads a small first page, then bigger pages fetched ahead of your scroll\r\n- **Fix** - A page that fails to load shows a retry instead of a spinner forever\r\n- **Fix** - Searching a library past 10,000 books no longer floods the server\r\n- **Fix** - Opening a series from a book shows that book right away, with a retry if the server is slow\r\n- **Improved** - The authors tab loads in pages instead of fetching every author at once\r\n\r\n### Sync\r\n- **Fix** - A position that loses to the server is replaced instead of retrying forever, and reopening the app no longer re-saves a paused position as fresh (iPhone and iPad drifting minutes apart)\r\n\r\n### Downloads\r\n- **Fix** - Deleting a book no longer lets auto-download bring it straight back; it stays gone until you download it yourself\r\n\r\n### Settings sync\r\n- **New** - The Absorbing order syncs between devices\r\n- **Fix** - Auto-download switches and reader looks stay on the device they were set on\r\n\r\n### Book sheet\r\n- **Fix** - Descriptions keep their paragraph breaks and show in full\r\n\r\n### iOS\r\n- **Fix** - Absorb leaves the headset with an app you paused instead of taking it back\r\n- **Fix** - The lock screen shows the right chapter after a headset or widget session moved the book along while the app was asleep, and keeps the cover when playback starts\r\n- **Improved** - Covers are dropped from memory in the background, so a paused Absorb is less likely to be evicted and lose Now Playing to another app"
+        },
         {
           "version": "1.10.0",
           "buildVersion": "265",
