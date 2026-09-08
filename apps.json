@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.10.0",
-      "buildVersion": "275",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.10.0-275/absorb-1.10.0-275-pre.ipa",
+      "buildVersion": "276",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.10.0/absorb-1.10.0-276.ipa",
       "versions": [
+        {
+          "version": "1.10.0",
+          "buildVersion": "276",
+          "date": "2026-09-08T19:51:48Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.10.0/absorb-1.10.0-276.ipa",
+          "size": 47275115,
+          "localizedDescription": "# v1.10.0\r\n\r\n### Transcription\r\n- **New** - Turn audio bookmarks into text, fully on your device (Settings > Advanced > Transcription)\r\n- **New** - Pause and tap Find position in ebook, or highlight text while reading and find that spot in the audiobook\r\n- **New** - With an EPUB on the book, a confident match uses the book's exact words\r\n\r\n### Reading\r\n- **New** - Auto scroll: the next page rolls down over the current one, so the text never moves\r\n- **New** - Share a highlight or bookmark note as a quote card over the book cover\r\n- **New** - E-ink mode: flat, monochrome, no animations - great on a Boox Palma\r\n- **New** - Tap a highlight to recolor, note, share, or jump to it in the audiobook, and see every book's highlights in All Bookmarks\r\n- **Improved** - Reading uses less battery, big ebooks open faster\r\n\r\n### Scan Series\r\n- **New** - A quick scan for upcoming books or a deep scan for missing ones, with release-day notifications on Android - scans remember finished series and skip them\r\n\r\n### Playback\r\n- **New** - Progress from other devices catches up automatically, and the paused player follows along\r\n- **New** - Sync to the server every 20 seconds instead of every minute\r\n- **New** - Jump to a session's start or end from its details\r\n- **Fix** - Headset play starts right away, and the widget and Android Auto no longer start or pause playback on their own\r\n\r\n### iOS\r\n- **New** - Lock screen controls use your own skip amounts\r\n- **Improved** - Bluetooth controls are much more reliable\r\n\r\n### Podcasts\r\n- **New** - Subscribe without new episodes filling up Absorbing, plus Up Next and New filters and episode sorting\r\n\r\n### More\r\n- **New** - Book subtitles in the library, more author and narrator sorts, Audible rating counts\r\n- **New** - Settings sync across devices via your own WebDAV server\r\n- **New** - Cover size setting, bulk book actions, delete from server, daily/weekly/monthly goals\r\n- **New** - Queue auto-download keeps the next books in a series, show, or playlist downloaded\r\n- **New** - Audiobookshelf 2.36 support and a bigger admin area\r\n- **Improved** - Very large libraries load in pages, and search no longer floods the server\r\n- **Fix** - Duplicate sessions inflating stats, search missing books past 10,000, collections missing on servers with very many\r\n- **Fix** - Streamed books going silent or jumping back after a sync\r\n- **Fix** - Smoother cover grids that no longer crash"
+        },
         {
           "version": "1.10.0",
           "buildVersion": "275",
