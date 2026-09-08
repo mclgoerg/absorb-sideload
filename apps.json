@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.10.0",
-      "buildVersion": "267",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.10.0-267/absorb-1.10.0-267-pre.ipa",
+      "buildVersion": "275",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.10.0-275/absorb-1.10.0-275-pre.ipa",
       "versions": [
+        {
+          "version": "1.10.0",
+          "buildVersion": "275",
+          "date": "2026-09-08T16:32:26Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.10.0-275/absorb-1.10.0-275-pre.ipa",
+          "size": 47279915,
+          "localizedDescription": "# v1.10.0-275\r\n## Beta 11\r\n\r\n### Ebook reader\r\n- **New** - Auto scroll - the next page comes down over the current one from the top, so the text never moves. Tap to pause, press and hold to stop, drag to change speed. Start it from the up/down arrows button in the reader toolbar\r\n- **Improved** - The reader's buttons moved to the bottom within thumb reach, with title, chapter and progress at the top\r\n- **Improved** - Big ebooks open faster\r\n- **Fix** - The first page of a chapter no longer counts as the last page of the one before\r\n\r\n### Library\r\n- **New** - Book subtitles can show under titles in the library and on home, set globally or per library - the book details sheet always shows them\r\n- **New** - The Audible score in book details shows how many ratings it is based on\r\n- **Fix** - A series with a comma in its name, like \"Love, Death + Robots\", stays one series on the author page instead of splitting into two\r\n- **New** - Sort authors by date added, and narrators by number of books\r\n\r\n### Playback\r\n- **Fix** - Playback no longer pauses every few minutes on Android Auto when the phone's Bluetooth link to the head unit blips (#369)\r\n- **Fix** - Absorb no longer starts playing on its own when opened from the widget cover, from Recents, or right after an update\r\n- **Fix** - A streamed book no longer cuts out a few seconds after you resume when the server had closed its session\r\n- **Fix** - Deleting another episode of the podcast you are listening to no longer stops playback\r\n\r\n### Connection\r\n- **Fix** - Absorb picks the local server address at launch again when it answers, instead of staying on the remote one until you switch by hand\r\n\r\n### iOS\r\n- **Fix** - A multi-file book no longer jumps back to the start after a pause or seek when the server session was recreated behind playback\r\n\r\n### Equalizer\r\n- **Fix** - A band reads 0 instead of \"-/+0\"\r\n\r\n### Podcasts\r\n- **Fix** - The \"Downloading N episodes\" toast no longer shows on every launch for episodes you had deleted\r\n- **Fix** - An episode you reset no longer drags auto-download to the newest episodes; the window follows the episode you are actually on"
+        },
         {
           "version": "1.10.0",
           "buildVersion": "267",
