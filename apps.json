@@ -10,10 +10,18 @@
       "subtitle": "Audiobookshelf client for iOS",
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
-      "version": "1.10.0",
-      "buildVersion": "276",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.10.0/absorb-1.10.0-276.ipa",
+      "version": "1.11.1",
+      "buildVersion": "279",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-279/absorb-1.11.1-279-pre.ipa",
       "versions": [
+        {
+          "version": "1.11.1",
+          "buildVersion": "279",
+          "date": "2026-09-10T19:25:24Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-279/absorb-1.11.1-279-pre.ipa",
+          "size": 47287724,
+          "localizedDescription": "# v1.11.1-279\r\n## Beta 1\r\n\r\n### Syncing\r\n- **Fix** - The progress percent no longer gets stuck on the server for downloaded books and paused podcast episodes while the position kept moving (#376)\r\n- **Fix** - A downloaded book keeps syncing after a rough patch of network instead of giving up until the app is opened\r\n\r\n### Series queue\r\n- **Fix** - The series queue works past book 100 (#377)\r\n- **Improved** - Manage Queue opens at the book you are on, fits three-digit numbers, and no longer refetches the series every time you open it\r\n\r\n### Finished status\r\n- **Fix** - Resetting a podcast episode clears it on the server and stays cleared instead of coming back\r\n- **Improved** - Mark as not finished puts the book back at the start everywhere, like the web app does, instead of silently keeping the old spot in the app\r\n\r\n### Watch\r\n- **Fix** - Downloaded books show their cover on Pixel Watch media controls again\r\n\r\n### Ebook reader\r\n- **Improved** - Auto scroll on two-column spreads scrolls one column at a time\r\n- **Fix** - Find in audiobook keeps looking when the chapter markers don't line up with the ebook\r\n- **Fix** - The reader's play button no longer vanishes on the dark and grey looks in e-ink mode"
+        },
         {
           "version": "1.10.0",
           "buildVersion": "276",
