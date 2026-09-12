@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.11.1",
-      "buildVersion": "279",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-279/absorb-1.11.1-279-pre.ipa",
+      "buildVersion": "280",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-280/absorb-1.11.1-280-pre.ipa",
       "versions": [
+        {
+          "version": "1.11.1",
+          "buildVersion": "280",
+          "date": "2026-09-12T00:03:38Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-280/absorb-1.11.1-280-pre.ipa",
+          "size": 47400697,
+          "localizedDescription": "# v1.11.1-280\n## Beta 2\n\n### Read along\n- **New** - Read along in the ebook reader: the narration is highlighted on the page as the audiobook plays, word by word or a sentence at a time, and the pages turn themselves. Needs the audiobook downloaded and on-device transcription turned on\n- **New** - A Read along button on the card for books with an epub. It opens the reader at your spot, waits paused while the transcript gets ahead of the narration, then carries on by itself\n- **New** - Live transcript on the card for podcasts and books without an epub, with the words rolling in as they are spoken\n- **New** - Word or sentence tracking and the highlight color live in the reader's text settings\n- **New** - A button in transcription settings to clear the transcript cache\n\n### Ebook reader\n- **New** - A setting to keep the title and progress bar on screen above the page instead of showing them on tap\n- **Fix** - Find in audiobook finds a passage at the start of a chapter in books where every chapter is its own file\n\n### Syncing\n- **Fix** - Coming back online no longer drags a paused book back to the position the server had before you lost the connection\n- **Fix** - Leaving WiFi mid-book keeps syncing through the remote address instead of trying the home network for the rest of the session"
+        },
         {
           "version": "1.11.1",
           "buildVersion": "279",
