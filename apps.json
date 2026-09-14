@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.11.1",
-      "buildVersion": "280",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-280/absorb-1.11.1-280-pre.ipa",
+      "buildVersion": "281",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-281/absorb-1.11.1-281-pre.ipa",
       "versions": [
+        {
+          "version": "1.11.1",
+          "buildVersion": "281",
+          "date": "2026-09-14T21:31:03Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-281/absorb-1.11.1-281-pre.ipa",
+          "size": 47405918,
+          "localizedDescription": "# v1.11.1-281\n## Beta 3\n\n### Read along\n- **Improved** - Read along finds your place in the book first and jumps straight there, then waits on a card in the middle of the page while the transcript gets ahead\n- **Fix** - A sentence no longer stays lit while the narration runs on past it\n- **Fix** - After starting or skipping, read along goes to the right page right away instead of paging forward from where the reader was\n- **Fix** - Skipping to a part of the book that hasn't been transcribed yet shows the listening pill instead of nothing\n- **Improved** - On e-ink, read along underlines the sentence being read and changes nothing else, so the page only redraws once per sentence\n- **Fix** - The card's edit layout list says Read along for books with an epub\n\n### Ebook reader\n- **Fix** - An ebook-only book you've read shows up in the offline library, not just one saved from its detail sheet\n- **Fix** - An epub added to a folder after the audiobook was downloaded is picked up the next time the app is online, so it opens offline\n\n### Playback\n- **Fix** - Headset resume and the widget's play button work again when a car has been connected in the last couple of hours\n\n### Library\n- **Fix** - Opening a book from a series or search while a podcast is playing in the unified library opens it as a book\n\n### Settings\n- **Fix** - The beta number next to the version is right again"
+        },
         {
           "version": "1.11.1",
           "buildVersion": "280",
