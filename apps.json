@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.11.1",
-      "buildVersion": "281",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-281/absorb-1.11.1-281-pre.ipa",
+      "buildVersion": "284",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-284/absorb-1.11.1-284-pre.ipa",
       "versions": [
+        {
+          "version": "1.11.1",
+          "buildVersion": "284",
+          "date": "2026-09-21T15:26:40Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-284/absorb-1.11.1-284-pre.ipa",
+          "size": 44980577,
+          "localizedDescription": "# v1.11.1-284\r\n## Beta 4\r\n\r\n### Chapter editor\r\n- **New** - Find the start listens around a chapter marker for the gap and the \"Chapter N\" that follows it, lists what it heard, and can fill in the chapter title from the narration. Needs a transcription model. Books do not need to be downloaded. \r\n- **Improved** - The preview is a windowed scrubber (2, 5 or 10 minutes) that edits the start as you drag or nudge, with hold-to-repeat nudges, a loop around the cut, and a time picker on tap\r\n- **Improved** - Lock, insert and delete sit beside the time, the shift row stays put while you scroll, and the toolbar scrolls away so small/zoomed screens have room for the chapters\r\n\r\n### Series\r\n- **New** - The series sheet opens on a strip of covers around the book to carry on with, series stats, an up next button that starts that book, and the actions as pills\r\n- **Improved** - The book sheet shows the series as a pill under the narrator, and the author and narrator links are easier to tap\r\n\r\n### Book details\r\n- **New** - The Absorb button fills in with how far through the book you are, and a Read button under it does the same for the ebook\r\n- **Improved** - Chapters are always open, and tapping a chapter jumps there after a confirm\r\n- **Improved** - Listening stats sit near the top with your latest sessions, and admins see how many others are on the book\r\n\r\n### Ebook reader\r\n- **New** - An arrow on the right of the player opens chapters, sleep timer, bookmarks, equalizer, cast (AirPlay on iPhone), details and download\r\n- **New** - Press and hold the auto scroll button to set a sleep timer for it. the scrolling stops and the screen is allowed to go dark\r\n- **New** - A reader setting keeps the screen on while you read, on by default (#384)\r\n- **Improved** - Find in audiobook and find in ebook remember every spot they've matched, so the next find near one is quick and read along starts from a known place\r\n\r\n### Playback\r\n- **Fix** - The next podcast episode no longer starts at the previous episode's position when auto-advance fails (#385)\r\n- **Fix** - A headset or car play press no longer restarts the episode that just finished and marks it unplayed (#374)\r\n- **New** - Playback speed goes up to 5x (#389)\r\n- **Improved** - On Android the loudness slider really boosts the volume now instead of just compressing it (#388)\r\n\r\n### Podcasts\r\n- **Fix** - The download prompt from the live transcript button works on a streamed episode"
+        },
         {
           "version": "1.11.1",
           "buildVersion": "281",
