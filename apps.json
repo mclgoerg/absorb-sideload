@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.11.1",
-      "buildVersion": "284",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-284/absorb-1.11.1-284-pre.ipa",
+      "buildVersion": "285",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-285/absorb-1.11.1-285-pre.ipa",
       "versions": [
+        {
+          "version": "1.11.1",
+          "buildVersion": "285",
+          "date": "2026-09-24T16:30:03Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-285/absorb-1.11.1-285-pre.ipa",
+          "size": 45001195,
+          "localizedDescription": "# v1.11.1-285\r\n## Beta 5\r\n\r\n### Playback\r\n- **Fix** - Audio no longer keeps playing while Absorb shows nothing playing after two plays overlap (#391)\r\n- **Fix** - Starting a download no longer cuts out the book you are streaming a few seconds later\r\n- **Improved** - When a download finishes while you listen, playback moves to the downloaded files at the next pause or seek instead of mid sentence\r\n- **Fix** - On Android the loudness boost no longer adds static on loud books\r\n\r\n### Series\r\n- **Fix** - A book that is in two series shows and sorts by its number in the series you opened (#397)\r\n- **New** - A Jump to up next pill on the series sheet scrolls a long series to the book you're on\r\n\r\n### Podcasts\r\n- **Fix** - An episode that auto-downloads while it plays is no longer saved under another episode's name\r\n\r\n### Ebook reader\r\n- **Fix** - The two pages layout works with the phone upright on fold devices and small tablets\r\n- **Fix** - Read along colors the text on iPhones where it was only turning the pages\r\n\r\n### Book details\r\n- **Fix** - No more space before the comma between authors or narrators, and the comma no longer drops to the next line\r\n- **Fix** - The Absorb button label on the long-press sheet is centered again"
+        },
         {
           "version": "1.11.1",
           "buildVersion": "284",
