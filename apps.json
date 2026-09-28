@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.11.1",
-      "buildVersion": "285",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-285/absorb-1.11.1-285-pre.ipa",
+      "buildVersion": "286",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-286/absorb-1.11.1-286-pre.ipa",
       "versions": [
+        {
+          "version": "1.11.1",
+          "buildVersion": "286",
+          "date": "2026-09-28T20:07:26Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-286/absorb-1.11.1-286-pre.ipa",
+          "size": 45005676,
+          "localizedDescription": "# v1.11.1-286\n## Beta 6\n\n### Playback\n- **Fix** - Streaming no longer gets stuck buffering at the start when the server keeps dropping connections, and pressing Play again while it loads no longer breaks it\n- **Fix** - Play starts from the newer spot another device saved\n- **Fix** - Progress that fails to reach the server is kept and sent later instead of dropped\n- **Fix** - On Android, Bluetooth headsets and Android Auto no longer pause the book every couple of minutes (#369)\n\n### Podcasts\n- **Fix** - On Android the episode cover no longer turns into a music note in the notification and Android Auto after coming back to the app (#401)\n\n### Library\n- **Fix** - Covers in sheets are no longer tiny in landscape\n- **Improved** - Cover size applies the same on the library, the home shelves and every sheet\n\n### Downloads\n- **Fix** - A failed download says why instead of just going back to the download button (#310)"
+        },
         {
           "version": "1.11.1",
           "buildVersion": "285",
