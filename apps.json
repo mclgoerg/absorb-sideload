@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.11.1",
-      "buildVersion": "286",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-286/absorb-1.11.1-286-pre.ipa",
+      "buildVersion": "287",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-287/absorb-1.11.1-287-pre.ipa",
       "versions": [
+        {
+          "version": "1.11.1",
+          "buildVersion": "287",
+          "date": "2026-09-30T23:48:28Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-287/absorb-1.11.1-287-pre.ipa",
+          "size": 45059594,
+          "localizedDescription": "# v1.11.1-287\n## Beta 7\n\n### Queue\n- **New** - Adding to Absorbing asks whether it plays next or goes to the end\n- **Fix** - Books you start stay on Absorbing instead of disappearing on the next refresh\n- **Fix** - The series queue plays the actual next book instead of jumping ahead to one you downloaded or removed from Absorbing\n- **Fix** - Marking books finished no longer starts the next one\n\n### Car\n- **New** - Android Auto and CarPlay have their own settings section, with sort options for books and podcasts\n- **New** - Collections and Playlists in the car library\n- **Fix** - Android Auto no longer starts the book again when you switch to the car radio\n\n### Playback\n- **Fix** - The loudness boost no longer sounds gravelly on loud words\n- **New** - On Android, Absorb stays in the media controls after you close it so you can resume from there\n\n### Downloads\n- **New** - Download several books at once from multi-select on Home and Library\n- **New** - Play straight from the Downloads list, even offline or from another library (#313)\n- **New** - If your session expires, play your downloads from the sign-in screen\n- **Fix** - Deleting or finishing a book no longer wipes other downloads with the same title\n\n### Transcription\n- **New** - Transcription works on streamed books too, not just downloads\n- **Improved** - Bookmark transcripts always use the ebook's exact words when the book has an EPUB\n\n### Bookmarks\n- **New** - Search bookmarks and highlights, and each book's list starts folded\n\n### Other\n- **New** - A link to the release notes the first time the app opens after an update\n- **Improved** - Less battery and data use while offline\n- **Fix** - Pasted sign-in links ask before signing you in"
+        },
         {
           "version": "1.11.1",
           "buildVersion": "286",
