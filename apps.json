@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.11.1",
-      "buildVersion": "287",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-287/absorb-1.11.1-287-pre.ipa",
+      "buildVersion": "290",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-290/absorb-1.11.1-290-pre.ipa",
       "versions": [
+        {
+          "version": "1.11.1",
+          "buildVersion": "290",
+          "date": "2026-10-08T19:22:44Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-290/absorb-1.11.1-290-pre.ipa",
+          "size": 45694001,
+          "localizedDescription": "# v1.11.1-290\r\n## Beta 8\r\n\r\n### BookOrbit\r\n- **New** - Sign in to a BookOrbit server: pick the server type above the address, with SSO sign-in. Early support, some screens still behave like Audiobookshelf\r\n\r\n### Read along\r\n- **New** - When the audio and the page drift apart, a tap on the catch up pop-up brings one to the other\r\n- **New** - The speed button in the reader bar can be swapped for bookmarks or another shortcut\r\n- **Fix** - Read along picks up again after the app was in the background, and chapters named with roman numerals match\r\n\r\n### Playback\r\n- **Fix** - Pressing play from the widget, notification or Android Auto after a long pause no longer plays in silence\r\n- **Fix** - On iPhone and CarPlay, a skip right after opening a book no longer sends it back to the start\r\n\r\n### Screen\r\n- **New** - Keep the screen on in the player and in car mode, from Settings or the new card button\r\n\r\n### Offline\r\n- **New** - An ebook you have opened stays on the phone after its audio download is deleted, and shows up offline and under Downloads\r\n- **New** - Covers show a small book badge when the book has an ebook, with a setting to turn it off\r\n- **Fix** - Downloaded books stay on the Downloads shelf offline, show their real progress, and start without the server\r\n\r\n### Library\r\n- **New** - Sort series by total duration, last book added or last book updated\r\n- **New** - Upload files into an existing book: pick the book and the files go into its folder, so an ebook can join its audiobook\r\n\r\n### Sign-in\r\n- **New** - If you get signed out, your downloads keep playing and a red cloud takes you back to sign in\r\n\r\n### Look\r\n- **New** - Button background setting for the player card: clear, subtle or solid\r\n- **Fix** - Collection and playlist sheets open in the grid or list view you last picked\r\n- **Fix** - iPhone widgets keep the cover when the home screen is set to Tinted or Clear\r\n- **Fix** - Widgets no longer have extra padding on Nothing phones\r\n\r\n### Transcription\r\n- **Fix** - The live transcript no longer crashes iPhones older than the 12"
+        },
         {
           "version": "1.11.1",
           "buildVersion": "287",
