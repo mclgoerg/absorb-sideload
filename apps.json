@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.11.1",
-      "buildVersion": "290",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-290/absorb-1.11.1-290-pre.ipa",
+      "buildVersion": "291",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-291/absorb-1.11.1-291-pre.ipa",
       "versions": [
+        {
+          "version": "1.11.1",
+          "buildVersion": "291",
+          "date": "2026-10-10T05:48:38Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-291/absorb-1.11.1-291-pre.ipa",
+          "size": 45696810,
+          "localizedDescription": "# v1.11.1-291\n## Beta 9\n\n### Sign-in\n- **Improved** - SSO sign-in now returns to Absorb's own address, absorb://oauth, instead of the official app's. Your server admin needs to allow absorb://oauth under Settings, Authentication, Mobile redirect URIs before the next SSO sign-in. Anyone already signed in stays signed in (#417)\n\n### Podcasts\n- **Fix** - With the queue set to Show, an offline podcast now continues to its next downloaded episode even when that episode was never put on the queue\n\n### Read along\n- **Fix** - Read along no longer stalls after a paragraph that ends on an ellipsis or a dash\n\n### Sleep timer\n- **Fix** - The reset on pause and play option now catches every resume, not just the ones that landed on a timer tick (#415)\n\n### Reader\n- **New** - Alignment option in the reader controls: justified or left (#416)\n\n### Library\n- **Fix** - The book page shows every genre and tag instead of the first few\n- **Fix** - Authors without a photo no longer get a photo request, which was tripping fail2ban and CrowdSec in front of some servers (#418)\n\n### Look\n- **New** - The keep screen on button in the More menu shows when it is on, and switches it off for this run when Settings has it on\n- **Fix** - The one row widgets fit on launchers with short rows like Nothing and OnePlus\n\n### Other\n- **Fix** - Settings sync no longer wakes the phone every 45 seconds while the app is in the background (#409, thanks TerribleTurtle)"
+        },
         {
           "version": "1.11.1",
           "buildVersion": "290",
