@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.11.1",
-      "buildVersion": "291",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-291/absorb-1.11.1-291-pre.ipa",
+      "buildVersion": "293",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-293/absorb-1.11.1-293-pre.ipa",
       "versions": [
+        {
+          "version": "1.11.1",
+          "buildVersion": "293",
+          "date": "2026-10-13T22:40:34Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-293/absorb-1.11.1-293-pre.ipa",
+          "size": 46038194,
+          "localizedDescription": "# v1.11.1-293\r\n## Beta 10\r\n\r\n### iPhone\r\n- **Fix** - Live transcription and read along no longer crash iPhones on iOS older than 26.2. They run on the CPU there for now, so they're a little slower\r\n- **Improved** - Books made of several files play straight into the next file instead of pausing for a moment\r\n\r\n### Media controls\r\n- **New** - Choose what the notification, lock screen, Android Auto and CarPlay show on each line, including book percentage, time left, narrator and series. Settings, Media Controls, Now playing text\r\n\r\n### BookOrbit\r\n- **New** - Book Dock shows up as a library for accounts that can use it. Check and edit new files there, then add them to a library from the book page\r\n- **New** - Matching searches every source at once and ranks the results, with a side by side compare where each field can be kept or taken from any result\r\n- **New** - Book requests: ask for books, follow your requests, and as an admin approve or reject them, pick a release by hand and review downloads that need a check. On BookOrbit 3.4 an e-book and audiobook can be requested together\r\n- **Fix** - Magic link sign-in works on servers with passwords turned off\r\n\r\n### Server admin\r\n- **New** - Authentication page for setting up password and OpenID sign-in\r\n\r\n### Other\r\n- **Fix** - Books download even when the server has no permanent download link for their files\r\n- **Fix** - Pinch to zoom and panning work in the comic reader\r\n- **Fix** - The live transcript no longer transcribes the same stretch over and over after a long pause in the narration\r\n- **Fix** - Books deleted on the server leave the library grid right away\r\n- **Improved** - The Goodreads button opens the book itself when its ISBN is known, instead of a search"
+        },
         {
           "version": "1.11.1",
           "buildVersion": "291",
