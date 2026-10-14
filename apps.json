@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.11.1",
-      "buildVersion": "293",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-293/absorb-1.11.1-293-pre.ipa",
+      "buildVersion": "295",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-295/absorb-1.11.1-295-pre.ipa",
       "versions": [
+        {
+          "version": "1.11.1",
+          "buildVersion": "295",
+          "date": "2026-10-14T19:32:24Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-295/absorb-1.11.1-295-pre.ipa",
+          "size": 46137109,
+          "localizedDescription": "# v1.11.1-295\n## Beta 11\n\n### Ebook reader\n- **New** - Scroll mode: read the book as one long page instead of turning pages. Turn it on in the Tt menu\n- **New** - Picture-only ebooks, like illustrated kids' books, open in the comic reader so the pages fill the screen\n- **Fix** - Books open where you left off after reading on the web, instead of back at the start\n- **Fix** - Books where another app saved the reading spot no longer open to a blank page\n- **Fix** - Pictures stay on their own page instead of leaving a strip on the next one\n- **Fix** - Ebook-only books on the Continue card open the reader instead of trying to play\n\n### Read along\n- **New** - Turn or scroll pages while read along runs, then tap Back to narration in the menu to return to the sentence being read\n- **Fix** - The page no longer turns ahead and snaps back on sentences that end in an italic word\n\n### Comic reader\n- **New** - Bookmarks, synced with BookOrbit for picture ebooks\n\n### Lists\n- **New** - New Collection and New Playlist buttons in the Lists tab menu. Playlists can start empty, and an Audiobookshelf collection asks for its first book\n\n### BookOrbit\n- **New** - Smart Scopes show in the Lists tab with a filter icon. Create, edit and delete them with the same rule builder as the web\n- **New** - Filter the library by reading status\n- **Fix** - Skimmed books show as Skimmed instead of Finished\n- **Fix** - Scan Series checks every series and stops listing books you already have as missing\n- **Fix** - Big collections and Smart Scopes show their full book count and load the rest as you scroll\n\n### iPhone\n- **Improved** - Transcription and read along run on the GPU again on iOS older than 26.2, so they're back to full speed\n\n### Android\n- **Fix** - The play button works again after the phone takes the audio away from a book paused for a while\n\n### Other\n- **Improved** - The book details sheet uses each library's own cover shape"
+        },
         {
           "version": "1.11.1",
           "buildVersion": "293",
