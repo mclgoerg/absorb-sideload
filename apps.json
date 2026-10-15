@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.11.1",
-      "buildVersion": "295",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-295/absorb-1.11.1-295-pre.ipa",
+      "buildVersion": "296",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-296/absorb-1.11.1-296-pre.ipa",
       "versions": [
+        {
+          "version": "1.11.1",
+          "buildVersion": "296",
+          "date": "2026-10-15T15:28:04Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.11.1-296/absorb-1.11.1-296-pre.ipa",
+          "size": 46137592,
+          "localizedDescription": "# v1.11.1-296\n## Beta 12\n\n### Playback\n- **Fix** - Picking a later chapter, or a spot set on the web, no longer starts the book over from the beginning\n- **Fix** - A book whose audio file changed on the server plays the new file instead of getting stuck when you skip ahead\n\n### Downloads\n- **Fix** - A download from another account keeps its reading spot on the phone instead of sending it to the server you're signed in to\n\n### Other\n- **Fix** - Ebook-only books stay off the Absorbing page. Home's Continue row still opens them in the reader\n- **Fix** - Reading positions saved offline sync on their own, and ones for a book the server no longer has stop retrying"
+        },
         {
           "version": "1.11.1",
           "buildVersion": "295",
