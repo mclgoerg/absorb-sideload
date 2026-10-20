@@ -10,10 +10,18 @@
       "subtitle": "Audiobookshelf client for iOS",
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
-      "version": "1.12.0",
-      "buildVersion": "297",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.0/absorb-1.12.0-297.ipa",
+      "version": "1.12.1",
+      "buildVersion": "300",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.1-300/absorb-1.12.1-300-pre.ipa",
       "versions": [
+        {
+          "version": "1.12.1",
+          "buildVersion": "300",
+          "date": "2026-10-20T20:21:58Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.1-300/absorb-1.12.1-300-pre.ipa",
+          "size": 46948119,
+          "localizedDescription": "# v1.12.1-300\n## Beta 1\n\n### EPUB3 narration (#379)\n- **New** - EPUB3 books that read themselves aloud play like audiobooks. Listen, read, or turn on read along to follow each sentence as it's spoken\n- **New** - Highlight a sentence and tap Play from here. Opening the reader goes to what you're hearing, and reading ahead moves the audio to your page\n- **New** - On Audiobookshelf the narration downloads before it plays. A queue stops before one that isn't downloaded instead of skipping it, and offers the download when you start the book before it\n- **New** - Find in ebook and bookmark text use the book's own words, so no transcription is needed\n\n### Narrated EPUB3s on Audiobookshelf\n**Audiobookshelf doesn't support narrated EPUB3s on its own. Absorb fills in what it can, but a few things look different on the server:**\n- **Note** - Audiobookshelf sees these books as ebooks, so it shows no length for them: on the book, in playlists and on listening sessions. Your progress keeps the real length, and time listened still counts in your stats\n- **Note** - The Audiobookshelf web app and other apps put them in Continue Reading even when you're listening. Absorb shows them in Continue Listening\n- **Note** - The Audiobookshelf web app and its own apps can't play the narration, they only open the book to read\n\n### Reading and listening\n- **New** - Keep reading and listening in sync (Settings, Transcription). Stop listening and the ebook moves to where you stopped, leave the reader and the audiobook moves to your page\n- **New** - A Sync position button in a book's details when automatic sync is off, and a warning when a sync can't find your place\n- **New** - Count reading time in stats, in the reader's Tt menu\n- **New** - History tab in the reader's bookmarks, so you can get back to pages you left\n\n### Reader\n- **New** - The top bar can show progress for the chapter, the book, or both (Tt menu)\n- **Fix** - BookOrbit books open on the right page and no longer overwrite the spot saved on BookOrbit (#299)\n- **Fix** - Scroll mode no longer slides sideways while scrolling\n\n### Home\n- **New** - Continue Reading uses the same big cards as Continue Listening, and now shows on BookOrbit too\n- **New** - Option to open a book's details instead of playing when you tap it on Home (Settings, Library)\n\n### iPhone\n- **New** - Siri: \"Play [book] in Absorb\", resume, pause, skip, chapters, sleep timer, bookmarks and \"What's playing\"\n\n### Other\n- **Fix** - The Read button on an ebook-only book shows how far you've read\n- **Fix** - No more dark gap under the search bar on the iPad library tabs"
+        },
         {
           "version": "1.12.0",
           "buildVersion": "297",
