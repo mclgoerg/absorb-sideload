@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.12.1",
-      "buildVersion": "302",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.1-302/absorb-1.12.1-302-pre.ipa",
+      "buildVersion": "303",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.1-303/absorb-1.12.1-303-pre.ipa",
       "versions": [
+        {
+          "version": "1.12.1",
+          "buildVersion": "303",
+          "date": "2026-11-01T16:07:47Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.1-303/absorb-1.12.1-303-pre.ipa",
+          "size": 47841246,
+          "localizedDescription": "# v1.12.1-303\r\n## Beta 4\r\n\r\n### BookOrbit\r\n- **New** - Send to E-Reader: email a book to your Kindle or other e-reader from its details. Your devices, groups, templates and send history are under Send by email in your account in Settings, and admins set up mail servers in Server admin\r\n- **New** - Quick Match several books at once from the library's select mode, like on Audiobookshelf\r\n- **New** - Request books missing from your series, from Find Missing Books or the Scan Series results, if your account can make requests\r\n- **New** - Tab hold shortcuts include BookOrbit's admin pages\r\n- **Fix** - Resetting a book takes it out of Currently Reading and clears its ebook spot, books you only read can be reset, and you can set a book back to Unread\r\n\r\n### Read along\r\n- **New** - Create a read along from a book's File info on BookOrbit 3.6 servers that have the read along worker, and get a notification when it's ready\r\n- **New** - A BookOrbit read along that sits beside the audiobook is the copy the reader opens, so read along follows the audiobook\r\n\r\n### Chapter editor\r\n- **New** - On BookOrbit 3.6, get chapters from the audio files, the ebook, the read along or an earlier version, write them into the audio files and protect them from rescans\r\n\r\n### File info\r\n- **New** - Delete a single file from a book, if your account can delete\r\n- **New** - Request the other format on BookOrbit: ask for the ebook of an audiobook or the audiobook of an ebook\r\n\r\n### Audiobookshelf 2.37\r\n- **Fix** - Live updates keep working after your sign-in token runs out\r\n- **New** - Matching a book offers Explicit and Abridged when the result has them\r\n- **Fix** - With libraries merged, a series from another library loads on the Absorbing screen\r\n\r\n### Reader\r\n- **Fix** - Rotating the phone no longer jumps back pages\r\n\r\n### Other\r\n- **Fix** - \"1 other listener\" no longer shows when you're the only one listening\r\n- **Improved** - Selecting on the Downloads page includes kept ebooks\r\n- **Improved** - New Discord invite link"
+        },
         {
           "version": "1.12.1",
           "buildVersion": "302",
