@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.12.1",
-      "buildVersion": "303",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.1-303/absorb-1.12.1-303-pre.ipa",
+      "buildVersion": "304",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.1-304/absorb-1.12.1-304-pre.ipa",
       "versions": [
+        {
+          "version": "1.12.1",
+          "buildVersion": "304",
+          "date": "2026-11-05T03:29:05Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.1-304/absorb-1.12.1-304-pre.ipa",
+          "size": 48090333,
+          "localizedDescription": "# v1.12.1-304\n## Beta 5\n\n### Windows\n- **New** - Absorb for Windows: an installer is attached to each release from now on. Sign in, play, download, read and transcribe like on the phone. Needs Windows 10 or newer\n  - It's new, so as always let me know about bugs you find, and about areas that don't feel very desktop yet\n  - The installer isn't signed yet, so Windows will warn before it runs\n\n### Audio (Android)\n- **Improved** - The loudness slider levels quiet books automatically instead of adding a fixed boost\n- **Improved** - The equalizer and bass boost run inside the player on Android, so they work on every phone\n- **New** - A pitch slider in the equalizer, to make the narrator sound lower or higher\n- **New** - Play with other audio, in Playback settings, keeps Absorb playing when another app starts its own audio. Calls still pause it\n\n### Settings\n- **New** - Each library can have its own default speed, under Library next to the custom skip amounts\n- **New** - Audible ratings on book details can be turned off, under Library\n- **Improved** - Tapping a genre or tag on a book found through search opens the library with that filter on\n\n### Progress and sync\n- **Fix** - Marking a book finished while offline now syncs once you're back online\n- **Fix** - The queue downloads the next book even if you deleted an earlier download of it by hand\n- **Fix** - A crash when a downloaded book finished while the server was unreachable\n- **Improved** - One missed server ping no longer switches the app to offline; it checks again first\n- **Improved** - Progress syncs every 60 seconds on cellular so the modem can sleep between pushes\n\n### Read along\n- **New** - Play from here on a highlight in a narrated book, from the reader and from the Highlights tab\n\n### BookOrbit\n- **New** - Forgot password on the sign-in screen\n- **New** - Admins can see a user's reading activity"
+        },
         {
           "version": "1.12.1",
           "buildVersion": "303",
