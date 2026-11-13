@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.12.1",
-      "buildVersion": "304",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.1-304/absorb-1.12.1-304-pre.ipa",
+      "buildVersion": "305",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.1-305/absorb-1.12.1-305-pre.ipa",
       "versions": [
+        {
+          "version": "1.12.1",
+          "buildVersion": "305",
+          "date": "2026-11-12T22:55:37Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.1-305/absorb-1.12.1-305-pre.ipa",
+          "size": 48217939,
+          "localizedDescription": "# v1.12.1-305\n## Beta 6\n\n### Wear OS\n- **New** - The Absorb watch app ships with each release from now on. Play from the wrist, see your bookmarks, and the watch can pause and rewind the phone when you fall asleep (a toggle in the sleep timer settings)\n- For now the watch APK is a companion to the GitHub version of Absorb. It also works on its own with a basic sign-in. Play Store is in the works\n\n### Reader\n- **New** - Sentence mode shows one sentence at a time, pictures included, and turns the page when the narration runs on. Auto scroll speed is in words per minute\n- **Improved** - The tap zones card can move to the top or shrink away. Swipe between the reader settings tabs\n- **Fix** - A narrated EPUB keeps the read along color you picked after a restart\n\n### Playback\n- **Fix** - A paused book no longer starts by itself when headphones connect or disconnect\n- **Fix** - The book mutes the moment car Bluetooth drops, and a pause during a slow resume no longer saves an episode back at the start\n- **Improved** - Headphone and car starts check the server for a newer position before playing, thanks to TerribleTurtle (#438)\n- **Improved** - Collections and playlists open on the next book to read, and the queue is remembered after playing something else\n\n### Home and stats\n- **Improved** - Book and series sheets open in their cover color straight away\n- **Fix** - Series totals count every book, not just the ones you opened before\n- **New** - The Stats tab can be hidden from the bottom bar\n\n### BookOrbit\n- **New** - API keys, needs BookOrbit [3.8.0](https://github.com/bookorbit/bookorbit/releases/tag/v3.8.0): sign in with a key, manage your own keys, and admins can hand a user a sign-in QR code from their page\n- **New** - Server notifications on the phone, like requests coming in\n- **Improved** - Works with BookOrbit 3.7's locked routes, and the settings page says when the server has an update\n\n### Windows\n- **Improved** - The window opens at the size and monitor it was closed on"
+        },
         {
           "version": "1.12.1",
           "buildVersion": "304",
