@@ -10,10 +10,26 @@
       "subtitle": "Audiobookshelf client for iOS",
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
-      "version": "1.12.1",
-      "buildVersion": "306",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.12.1-306/absorb-1.12.1-306-pre.ipa",
+      "version": "1.15.1",
+      "buildVersion": "309",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.15.1-309/absorb-1.15.1-309-pre.ipa",
       "versions": [
+        {
+          "version": "1.15.1",
+          "buildVersion": "309",
+          "date": "2026-11-19T17:00:16Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.15.1-309/absorb-1.15.1-309-pre.ipa",
+          "size": 48803526,
+          "localizedDescription": "# v1.15.1-309\n\n## Beta 1\n\n### Appearance\n- **New** - Liquid Glass on iOS 26: glass tab bar, library pills and toasts (Settings, Appearance)\n- **New** - Material 3 Expressive on Android: rolling tab highlight, shape loader, squishy buttons and a new player card look (Settings, Appearance)\n- **Improved** - Settings switches use the iOS style on iPhone and iPad\n\n### Absorbing cards\n- **New** - Card swipe style: Classic, Carousel or Stack\n- **New** - Solid card background, a calm shade of the cover's color\n- **Improved** - Button style moved to the Absorbing Cards settings\n\n### Library\n- **New** - Detail sheets grow out of the cover you tap\n\n### Languages\n- **New** - Polish, thanks to TheMatrixan (#490)"
+        },
+        {
+          "version": "1.14.0",
+          "buildVersion": "308",
+          "date": "2026-11-19T16:57:31Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.14.0/absorb-1.14.0-308.ipa",
+          "size": 48228182,
+          "localizedDescription": "# v1.14.0\n\n### Windows\n- **New** - Absorb on Windows, with an installer and media key support\n\n### Ebook reader\n- **New** - Sentence mode\n- **New** - Slide, Curl and Ripple page turns and an editable tap grid\n- **New** - Translate button\n- **Fix** - Swipe to turn pages works on iOS\n\n### Read along\n- **New** - EPUB3 narration, streamed or downloaded\n  - On Audiobookshelf, for best results, make the EPUB3 the only book file in the item (a cover and metadata files are fine)\n  - On Audiobookshelf, listening time still gets logged, but the book's duration shows as 0 since ABS doesn't support these natively\n  - Check out [Storyteller](https://storyteller-platform.dev/)'s STAlign for creating narrated EPUBs\n- **New** - Sync position button\n\n### BookOrbit\n- **New** - API key sign-in, stats with Year in Review, notifications and achievements\n- **New** - Send to E-Reader, bulk Quick Match and series requests\n- **Fix** - Works with BookOrbit 3.7\n\n### Playback\n- **New** - Per-library default speed\n- **New** - Pitch slider (Android)\n- **Improved** - Equalizer works on every Android phone\n- **Fix** - Paused books no longer start or jump ahead on their own\n\n### Wear OS\n- **New** - Control chapters, bookmarks, sleep timer and speed from the watch\n- **New** - Pause when the watch says you fell asleep\n- **Note** - The watch app is a separate install: grab the absorbwear APK from this release, or get it from the Play Store once it's approved there\n\n### Other\n- **New** - Siri plays the book you ask for\n- **New** - New episode notifications on iPhone\n- **New** - Hide the Stats tab\n- **Fix** - Books marked finished while offline sync once you're back online"
+        },
         {
           "version": "1.12.1",
           "buildVersion": "306",
