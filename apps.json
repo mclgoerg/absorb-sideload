@@ -11,9 +11,17 @@
       "localizedDescription": "A modern cross-platform Audiobookshelf client. This unofficial source tracks IPA files published by the upstream Absorb GitHub releases.",
       "iconURL": "https://raw.githubusercontent.com/pounat/absorb/main/assets/icon/app_icon.png",
       "version": "1.15.1",
-      "buildVersion": "309",
-      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.15.1-309/absorb-1.15.1-309-pre.ipa",
+      "buildVersion": "310",
+      "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.15.1-310/absorb-1.15.1-310-pre.ipa",
       "versions": [
+        {
+          "version": "1.15.1",
+          "buildVersion": "310",
+          "date": "2026-11-20T05:37:15Z",
+          "downloadURL": "https://github.com/pounat/absorb/releases/download/v1.15.1-310/absorb-1.15.1-310-pre.ipa",
+          "size": 48762949,
+          "localizedDescription": "# v1.15.1-310\n\n## Beta 2\n\n### Player\n- **Improved** - Smoother card expand, it grows and shrinks with your swipe\n- **Improved** - A book you play slides its card to the front\n- **Improved** - Button rows join up in every look\n\n### App icon\n- **New** - App icon colors on iPhone and Android (Settings, Appearance)\n\n### Covers\n- **Fix** - Android Auto, CarPlay and the watch show new covers\n- **New** - Edit sheet previews a new cover before saving\n\n### BookOrbit\n- **New** - Hide libraries from shelves, series or stats (3.9)\n- **New** - Pause and resume read along creation\n- **New** - KOReader device names in the reading log\n- **Improved** - API key sign-ins can change password and keys\n\n### Audiobookshelf\n- **Fix** - Saving a user keeps their tag limits (2.38)\n\n### Ebooks\n- **Fix** - Progress kept when starting offline\n- **Fix** - Read along page turn fixes\n- **New** - Save narrated EPUBs as text only\n\n### Watch\n- **Fix** - Starts phone playback with the app closed\n- **New** - Matches the phone's app icon\n\n### Windows\n- **Fix** - Single sign-on works\n- **Fix** - Multi-file spot and robotic audio above 1x"
+        },
         {
           "version": "1.15.1",
           "buildVersion": "309",
